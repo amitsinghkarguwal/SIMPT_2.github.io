@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="container">
+        <div class="todo-app">
+            <h2>
+                <img src="images/icons8-list-64.png" alt="list_icon"> TO-DO List
+            </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your task">
+                <button onclick="addTask()">Add</button>
+            </div>
+
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li> -->
+            </ul>
+            
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
